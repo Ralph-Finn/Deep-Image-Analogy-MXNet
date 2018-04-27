@@ -35,6 +35,6 @@ Using cuda accelerated patch is fast, but it also consumes a lot of memory, as s
 #### parch reconstruction
 As shown, it is the case when patch_size =1
 
-![](./result/result_a.png)
+![](./result/result_A.png)
 ### Acknowledgments
 My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch , thanks for the authors of this amazing algorithm.
