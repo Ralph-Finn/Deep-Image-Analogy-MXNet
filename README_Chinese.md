@@ -3,6 +3,7 @@ A python implementation of Deep-Image-Analogy based on MXNet.
 ## Abstract
 这个版本的主要工作是使用MXNent来实现Deep Image Ananogy.虽然已经有人使用pytorch已经达到了很好的效果，但是将pytorch的程序改写为MXNet版本的确实还是不简单的。
 感谢Ben-Louis的[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)以及harveyslash的[Deep-Image-Analogy-PyTorch](https://github.com/harveyslash/Deep-Image-Analogy-PyTorch.git)，没有他们的工作，我是难以实现MXNet版本的Deep-Image-Analogy。Ben-Louis的实现方法比我的实现取得了更好的视觉效果，但是我的版本可能会稍快一点（8-10times faster?）harveyslash给出了patch-match的CUDA实现。
+
 <img src="./result/result.png" width = "500"  align=center />
 
 ## 使用方法：
@@ -22,7 +23,7 @@ MXNet的gluon接口与pytorch的实际上比较相似，MXNet通过NDArray作为
 ## 实现细节
 ### 重建
 与https://arxiv.org/abs/1705.01088. 中所述不同的是，重建的时候是采取的是下图中的网络结构，这样的结构确实是使得输出图像更加平滑，效果很好。
-<img src="./result/DIA1.png" width = "300"  align=center />
+<img src="./result/DIA_1.png" width = "300"  align=center />
 
  在本实现中，使用的是Adam,而不是拟牛顿法，效果比pytorch版本稍差，但是速度较快。（注意，nd.waitall()是一个比较耗时的操作，但如果去掉nd.waitall 又会有一些问题。）
 #### patch_match
