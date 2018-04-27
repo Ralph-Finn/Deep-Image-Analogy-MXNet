@@ -37,4 +37,4 @@ As shown, it is the case when patch_size =1
 
 ![](./result/result_A.png)
 ### Acknowledgments
-My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch , thanks for the authors of this amazing algorithm.
+My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch]( https://github.com/harveyslash/Deep-Image-Analogy-PyTorch.git), thanks for the authors of this amazing algorithm.
