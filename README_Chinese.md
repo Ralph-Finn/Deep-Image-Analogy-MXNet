@@ -29,12 +29,12 @@ MXNet的gluon接口与pytorch的实际上比较相似，MXNet通过NDArray作为
 #### patch_match
 使用cuda加速的patch速度很快，但是同时也会消耗掉大量内存，如图所示，运行patch的时候，内存占用率会突然提高，windows用户可能会出现桌面卡死的情况。
 
-![](./result/DIA_2.png)
+<img src="./result/DIA_1.png" width = "300"  align=center />
 
 #### parch reconstruction
 如图所示，是patch_size =1 的时候的情况
 
-![](./result/result_a.png)
+<img src="./result/DIA_2.png" width = "300"  align=center />
 
 ### Acknowledgments
 My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch,thanks for the authors of this amazing algorithm.
