@@ -24,14 +24,17 @@ However, the hardest part of the project is not the construction and training of
 ### Some Details
 #### Reconstruction
 What is different from what is described in https://arxiv.org/abs/1705.01088 is that the network structure in the following figure is used for reconstruction. This structure does make the output image smoother and works well.
+
 ![](./result/DIA_1.png)
 
  In this implementation, Adam is used instead of the quasi-Newton method, which is slightly less effective than the pytorch version, but faster. (Note that nd.waitall() is a time-consuming operation, but there are some problems if you remove nd.waitall.)
 #### patch_match
 Using cuda accelerated patch is fast, but it also consumes a lot of memory, as shown in the figure, running the patch, the memory usage will suddenly increase, windows users may appear desktop stuck.
-![](./result/DIA_2.png)
+
+![](./result/DIA_2.PNG)
 #### parch reconstruction
 As shown, it is the case when patch_size =1
+
 ![](./result/result_a.png)
 ### Acknowledgments
 My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch , thanks for the authors of this amazing algorithm.
