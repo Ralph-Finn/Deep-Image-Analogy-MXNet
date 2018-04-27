@@ -34,7 +34,7 @@ MXNet的gluon接口与pytorch的实际上比较相似，MXNet通过NDArray作为
 #### parch reconstruction
 如图所示，是patch_size =1 的时候的情况
 
-<img src="./result/DIA_2.png" width = "300"  align=center />
+<img src="./result/DIA_2.PNG" width = "300"  align=center />
 
 ### Acknowledgments
 My project acknowledge the Ben-Louis's[Deep-Image-Analogy-PyTorch](https://github.com/Ben-Louis/Deep-Image-Analogy-PyTorch.git)and harveyslash'[Deep-Image-Analogy-PyTorch,thanks for the authors of this amazing algorithm.
